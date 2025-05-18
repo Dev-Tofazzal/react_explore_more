@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './assets/Count'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <h1>React Core Concepts 2</h1>
+      <Counter></Counter>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me</button>
       
