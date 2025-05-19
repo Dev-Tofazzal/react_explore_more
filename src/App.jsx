@@ -1,8 +1,9 @@
 
 import './App.css'
-import Counter from './assets/Count'
-import Team from './assets/Team'
-import User from './assets/User'
+import Friends from './Friends'
+import Team from './Team'
+import User from './User'
+
 
 function App() {
  
@@ -22,9 +23,10 @@ function App() {
   return (
     <>
       <h1>React Core Concepts 2</h1>
-      <User></User>
+      <Friends></Friends>
       <Team></Team>
-      <Counter></Counter>
+      <User></User>
+      
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me</button>
       
